@@ -13,7 +13,7 @@ services:
       retries: 5
       
    department:
-    image: springjpa
+    image: springjpa2
     ports:
       - "9991:8080"
     environment:
